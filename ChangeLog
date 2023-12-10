@@ -1,0 +1,6 @@
+2005-10-10  Mats Kindahl  <mats@mysql.com>
+
+	* NCA.pm (new): Removed use of pseudo-hashes, since they are
+	deprecrated starting with 5.9.0, and switched to using restricted
+	hashes.
+
